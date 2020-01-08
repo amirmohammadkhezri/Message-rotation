@@ -64,16 +64,16 @@ if (isset($_REQUEST['btn_login']))	//button name is "btn_login"
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
+					<span class="sr-only">منو</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="http://www.onlyxcodes.com/">onlyxcodes</a>
+				<a class="navbar-brand" href="#">گیتی</a>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="http://www.onlyxcodes.com/2019/04/login-and-register-script-in-php-pdo.html">Back to Tutorial</a></li>
+					<li class="active"><a href="#">بازگشت</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
@@ -105,19 +105,19 @@ if (isset($_REQUEST['btn_login']))	//button name is "btn_login"
 				}
 				?>
 				<center>
-					<h2>Login Page</h2>
+					<h2>صفحه لاگین</h2>
 				</center>
 				<form method="post" class="form-horizontal">
 
 					<div class="form-group">
-						<label class="col-sm-3 control-label">meliCode</label>
+						<label class="col-sm-3 control-label">کد ملی</label>
 						<div class="col-sm-6">
 							<input type="text" name="txt_meliCode" class="form-control" placeholder="enter meliCode" />
 						</div>
 					</div>
 
 					<div class="form-group">
-						<label class="col-sm-3 control-label">Password</label>
+						<label class="col-sm-3 control-label">رمز عبور</label>
 						<div class="col-sm-6">
 							<input type="password" name="txt_password" class="form-control" placeholder="enter passowrd" />
 						</div>
@@ -125,14 +125,14 @@ if (isset($_REQUEST['btn_login']))	//button name is "btn_login"
 
 					<div class="form-group">
 						<div class="col-sm-offset-3 col-sm-9 m-t-15">
-							<input type="submit" name="btn_login" class="btn btn-success" value="Login">
+							<input type="submit" name="btn_login" class="btn btn-success" value="ورود">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<div class="col-sm-offset-3 col-sm-9 m-t-15">
-							You don't have a account register here? <a href="register.php">
-								<p class="text-info">Register Account</p>
+							اگر تا حالا ثبت نام نکرده اید بر روی ثبت نام کلیک کنید <a href="register.php">
+								<p class="text-info">ثبت نام</p>
 							</a>
 						</div>
 					</div>

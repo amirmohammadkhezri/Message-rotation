@@ -5,11 +5,11 @@ include_once './include/session.php';
 require_once './include/connect_to_users_table.php';
 
 
-if (isset($_REQUEST['btn_newSection'])) //button name "btn_register"
+if (isset($_REQUEST['btn_newSection'])) //button name "btn_message"
 {
 	$title	= strip_tags($_REQUEST['txt_title']);	    //textbox name "txt_email"
-	$user_id = strip_tags($_REQUEST['txt_users_All']);    	//textbox name "txt_role"
-	$Responsible_id	= strip_tags($_REQUEST['txt_users_Responsible']);	//textbox name "txt_email"
+	$user_id = strip_tags($_REQUEST['txt_users_All']);    	//textbox name "users_All"
+	$Responsible_id	= strip_tags($_REQUEST['txt_users_Responsible']);	//textbox name "users_Responsible"
 	
 		try {
 			$insert_stmt = $db->prepare("INSERT INTO tbl_sections (title,user_id,Responsible_id) VALUES
